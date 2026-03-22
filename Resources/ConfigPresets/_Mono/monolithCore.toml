@@ -1,10 +1,14 @@
 [game]
+hostname = "Сектор: HEX"
 soft_max_players = 100
 lobbyduration = 180
 lobbyenabled = true
 
+[loc]
+culture_name = "ru-RU"
+
 [chat]
-motd = "Welcome to Monolith! Your story takes place in the Colossus Sector. Be sure to join our Discord!"
+motd = "Welcome to Сектор: Hex! Your story takes place in the Colossus Sector. Be sure to join our Discord!"
 
 [console]
 login_host_user = "GoobStation"
@@ -53,7 +57,7 @@ time = 600
 
 [hub]
 advertise = 1
-tags = "lang:en, rp:med, region:eu_w"
+tags = "lang:ru, rp:med, region:eu_w"
 hub_urls = "https://hub.spacestation14.com/,https://hub.singularity14.co.uk/"
 
 [auth]

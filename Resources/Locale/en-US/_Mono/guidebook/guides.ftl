@@ -24,7 +24,7 @@ guide-entry-gridclaimer = Claiming Debris
 guide-entry-armorexplanation = Armor Mechanics
 
 # Rules
-guide-entry-monolith-rules = Monolith Rules
+guide-entry-monolith-rules = Сектор: Hex Rules
 
 # Creatures
 guide-entry-creatures = Creatures of the Sector
