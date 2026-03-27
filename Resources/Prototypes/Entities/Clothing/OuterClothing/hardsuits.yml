@@ -1356,7 +1356,7 @@
   parent: [ClothingOuterHardsuitBase]
   id: ClothingOuterHardsuitAssault
   name: assault hardsuit prototype
-  description:A prototype assault suit, created by an unknown craftsman for an equally unknown individual, is constructed from high-quality materials and features a hidden exoskeleton that, despite its impressive armor, allows it to attack enemies with the speed and force of a truck. This suit stands at least 3 meters tall and is designed exclusively for human wear.
+  description: A prototype assault suit, created by an unknown craftsman for an equally unknown individual, is constructed from high-quality materials and features a hidden exoskeleton that, despite its impressive armor, allows it to attack enemies with the speed and force of a truck. This suit stands at least 3 meters tall and is designed exclusively for human wear.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/assaultHardsuit.rsi
