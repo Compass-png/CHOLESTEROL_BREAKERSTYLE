@@ -1,0 +1,43 @@
+- type: entity
+  parent: [ClothingOuterHardsuitBase]
+  id: ClothingOuterHardsuitAssault
+  name: assault hardsuit prototype
+  description: A prototype assault suit, created by an unknown craftsman for an equally unknown individual, is constructed from high-quality materials and features a hidden exoskeleton that, despite its impressive armor, allows it to attack enemies with the speed and force of a truck. This suit stands at least 3 meters tall and is designed exclusively for human wear.
+  components:
+  - type: Sprite
+    sprite: _Hex/Clothing/OuterClothing/Hardsuits/assaultHardsuit.rsi
+  - type: Clothing
+    sprite: _Hex/Clothing/OuterClothing/Hardsuits/assaultHardsuit.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: TemperatureProtection
+    heatingCoefficient: 0.001
+    coolingCoefficient: 0.001
+  - type: ExplosionResistance
+    damageCoefficient: 0.6
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.55
+        Piercing: 0.3
+        Heat: 0.8
+        Radiation: 0.8
+        Caustic: 0.8
+  - type: Item
+    size: Huge
+  - type: ClothingSpeedModifier
+    walkModifier: 0.85
+    sprintModifier: 0.9
+  - type: HeldSpeedModifier
+  - type: StaminaDamageResistance 
+    coefficient: 0.4
+  - type: ToggleableClothing # Goobstation - Modsuits change - Mono - this is a solution for helmet attachment/cover to not fit on hardsuits
+    requiredSlot: outerclothing
+    blockUnequipWhenAttached: false
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitAssault
+      helmetcover: ClothingHeadHelmetCoverBlock
+      helmetattachment: ClothingHeadHelmetAttachmentBlock
