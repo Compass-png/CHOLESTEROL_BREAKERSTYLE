@@ -148,15 +148,6 @@
     state: tail_smooth_secondary
 
 - type: marking
-  id: LizardTailAquatic
-  bodyPart: Tail
-  markingCategory: Tail
-  speciesRestriction: [Reptilian]
-  sprites:
-  - sprite: Mobs/Customization/reptilian_parts.rsi
-    state: tail_aquatic
-
-- type: marking
   id: LizardTailLarge
   bodyPart: Tail
   markingCategory: Tail
@@ -404,12 +395,3 @@
   sprites:
     - sprite: Mobs/Customization/reptilian_parts.rsi
       state: tail_dtiger_wagging
-
-- type: marking
-  id: LizardTailAquaticAnimated
-  bodyPart: Tail
-  markingCategory: Tail
-  speciesRestriction: []
-  sprites:
-    - sprite: Mobs/Customization/reptilian_parts.rsi
-      state: tail_aquatic_wagging
