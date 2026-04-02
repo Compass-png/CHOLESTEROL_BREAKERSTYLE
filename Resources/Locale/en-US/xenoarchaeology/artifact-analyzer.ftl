@@ -20,7 +20,9 @@ analysis-console-info-depth = DEPTH: {$depth}
 analysis-console-info-triggered-true = ACTIVATED: TRUE
 analysis-console-info-triggered-false = ACTIVATED: FALSE
 analysis-console-info-effect = REACTION: {$effect}
+analysis-console-info-effect-unknown = UNKNOWN
 analysis-console-info-trigger = STIMULUS: {$trigger}
+analysis-console-info-trigger-unknown = UNKNOWN
 analysis-console-info-edges = EDGES: {$edges}
 analysis-console-info-value = UNEXTRACTED_VALUE: {$value}
 

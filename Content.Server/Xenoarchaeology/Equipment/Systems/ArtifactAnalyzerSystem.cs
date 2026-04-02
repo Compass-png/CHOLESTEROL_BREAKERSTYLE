@@ -334,20 +334,18 @@ public sealed class ArtifactAnalyzerSystem : EntitySystem
         var needSecondNewline = false;
 
         var triggerProto = _prototype.Index<ArtifactTriggerPrototype>(n.Trigger);
-        if (triggerProto.TriggerHint != null)
-        {
-            msg.AddMarkupOrThrow(Loc.GetString("analysis-console-info-trigger",
-                ("trigger", Loc.GetString(triggerProto.TriggerHint))) + "\n");
-            needSecondNewline = true;
-        }
+        var triggerText = triggerProto.TriggerHint != null
+            ? Loc.GetString(triggerProto.TriggerHint)
+            : Loc.GetString("analysis-console-info-trigger-unknown");
+        msg.AddMarkupOrThrow(Loc.GetString("analysis-console-info-trigger", ("trigger", triggerText)) + "\n");
+        needSecondNewline = true;
 
         var effectproto = _prototype.Index<ArtifactEffectPrototype>(n.Effect);
-        if (effectproto.EffectHint != null)
-        {
-            msg.AddMarkupOrThrow(Loc.GetString("analysis-console-info-effect",
-                ("effect", Loc.GetString(effectproto.EffectHint))) + "\n");
-            needSecondNewline = true;
-        }
+        var effectText = effectproto.EffectHint != null
+            ? Loc.GetString(effectproto.EffectHint)
+            : Loc.GetString("analysis-console-info-effect-unknown");
+        msg.AddMarkupOrThrow(Loc.GetString("analysis-console-info-effect", ("effect", effectText)) + "\n");
+        needSecondNewline = true;
 
         if (needSecondNewline)
             msg.PushNewline();

@@ -8,6 +8,7 @@
 - type: artifactTrigger
   id: TriggerTimer
   targetDepth: 0
+  triggerHint: artifact-trigger-hint-timer
   components:
   - type: ArtifactTimerTrigger
 
