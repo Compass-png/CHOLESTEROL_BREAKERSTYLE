@@ -1,0 +1,16 @@
+- type: entity
+  id: NovaCygniTranslator
+  parent: [ TranslatorPoweredBase ]
+  name: Classical English translator
+  description: Translates speech between Classical English and Andromeda Standard.  
+    Find out that all the average supersoldier of UGoE says is tactical commands and other words.
+  components:
+  - type: HandheldTranslator
+    spoken:
+    - TauCetiBasic
+    - ClassicalEnglish
+    understood:
+    - TauCetiBasic
+    - ClassicalEnglish
+    requires:
+    - TauCetiBasic
