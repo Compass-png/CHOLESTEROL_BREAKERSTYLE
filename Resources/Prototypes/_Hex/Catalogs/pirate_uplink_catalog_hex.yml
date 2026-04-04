@@ -1,0 +1,142 @@
+# WEAPONS CATEGORY
+
+- type: listing
+  id: UplinkPiratePulseRifle
+  name: Pulse Rifle
+  description: A powerful energy weapon capable of delivering devastating bursts of coherent energy. Approved by our Grand Vizier "Constellation of Revenge" for production by NT's old recipes.
+  productEntity: WeaponPulseRifle
+  cost:
+    Doubloon: 100
+  categories:
+  - UplinkPirateWeapons
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
+
+- type: listing
+  id: UplinkPirateDarkGygaxBundle
+  name: Dark Gygax Bundle
+  description: Contains the set of Cybersun light armored mech - the infamous Dark Gygax.
+  productEntity: CrateCybersunDarkGygaxBundle
+  cost:
+    Doubloon: 250
+  categories:
+  - UplinkPirateWeapons
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
+
+# MEDICINE CATEGORY
+
+- type: listing
+  id: UplinkPirateCombatMedipen
+  name: Omnizine Medipen
+  description: A single-use medipen containing chemicals that regenerate most types of damage.
+  productEntity: CombatMedipen
+  cost:
+    Doubloon: 5
+  categories:
+  - UplinkPirateMedical
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
+
+- type: listing
+  id: UplinkPirateChemVendRestockSet
+  name: ChemVend Restocking set
+  description: If you are out of chemicals...
+  productEntity: VendingMachineRestockChemVend
+  cost:
+    Doubloon: 5
+  categories:
+  - UplinkPirateMedical
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
+
+# UTILITY CATEGORY
+
+- type: listing
+  id: UplinkPirateAntiquePowerCell
+  name: Antique Prototype Power Cell
+  description: An old but surprisingly self-recharcing power cell with decent capacity. Has seen better days but is still a mystery to us.
+  productEntity: PowerCellAntiqueProto
+  cost:
+    Doubloon: 25
+  categories:
+  - UplinkPirateUtility
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
+
+- type: listing
+  id: UplinkPirateRogueSiliconT4Lootbox
+  name: Rogue Silicon T4 crate
+  description: A high-value loot crate from a rogue silicon unit, containing premium components and research materials. (WARNING - The Phaeton Dynsaty is not responsible for the fact you may not get the desired items out of the crate. Do not ask us where we get these everytime.)
+  productEntity: ClothingBackpackRogueSiliconT4
+  cost:
+    Doubloon: 50
+  categories:
+  - UplinkPirateUtility
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
+
+# EQUIPMENT CATEGORY
+
+- type: listing
+  id: UplinkPirateSpeedBoots
+  name: Speed Boots
+  description: Sleek footwear that increases your movement speed.
+  productEntity: ClothingShoesBootsSpeed
+  cost:
+    Doubloon: 25
+  categories:
+  - UplinkPirateEquipment
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
+
+- type: listing
+  id: UplinkPirateEliteSyndicateHardsuitBundle
+  name: Elite Syndicate Hardsuit Bundle
+  description: An elite version of the blood-red hardsuit, with improved mobility and fireproofing. Property of Gorlex Marauders.
+  productEntity: ClothingBackpackDuffelSyndicateEliteHardsuitBundle
+  cost:
+    Doubloon: 50
+  categories:
+  - UplinkPirateEquipment
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
+
+- type: listing
+  id: UplinkPirateNightVisionGogglesChameleon
+  name: Night Vision Goggles (Chameleon)
+  description: Enhanced night vision goggles with chameleon camouflage capabilities. Property of Gorlex Marauders.
+  productEntity: ClothingEyesNightVisionGogglesSyndie
+  cost:
+    Doubloon: 15
+  categories:
+  - UplinkPirateEquipment
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
