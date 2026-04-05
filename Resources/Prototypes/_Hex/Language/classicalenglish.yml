@@ -1,0 +1,86 @@
+# Spoken by UGoE supersoldiers
+# The language of endless wars, territorial conquest, and passion for oil
+- type: language
+  id: ClassicalEnglish
+  isVisibleLanguage: true
+  speech:
+    color: "#dc143cdd"  # Crimson red - aggressive, military tone
+  obfuscation:
+    !type:SyllableObfuscation
+    minSyllables: 1
+    maxSyllables: 4
+    replacement:
+    - drill
+    - march
+    - post
+    - fort
+    - base
+    - rank
+    - squad
+    - corp
+    - oper
+    - tact
+    - strat
+    - deploy
+    - strike
+    - stand
+    - hold
+    - fire
+    - ammo
+    - arms
+    - intel
+    - recon
+    - siege
+    - front
+    - line
+    - zone
+    - grid
+    - mark
+    - call
+    - sign
+    - code
+    - order
+    - command
+    - report
+    - status
+    - ready
+    - go
+    - move
+    - watch
+    - guard
+    - patrol
+    - scout
+    - sweep
+    - clear
+    - breach
+    - storm
+    - shock
+    - surge
+    - wave
+    - blitz
+    - charge
+    - push
+    - pull
+    - drag
+    - haul
+    - load
+    - drive
+    - speed
+    - fast
+    - rush
+    - burst
+    - flash
+    - blast
+    - boom
+    - bang
+    - crack
+    - snap
+    - pop
+    - zap
+    - ping
+    - tone
+    - beep
+    - sound
+    - noise
+    - buzz
+    - hum
