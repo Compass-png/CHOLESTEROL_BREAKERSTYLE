@@ -198,7 +198,7 @@
     severity: MonolithContrabandT1
     turnInValues:
       FederationMilitaryCredit: 0
-      Doubloon: 50
+      Doubloon: 95
 
 - type: entity
   parent: BaseFactionGearOtherFactionT0
@@ -209,7 +209,7 @@
     severity: MonolithContrabandT2
     turnInValues:
       FederationMilitaryCredit: 0
-      Doubloon: 150
+      Doubloon: 185
 
 - type: entity
   parent: BaseFactionGearOtherFactionT0
@@ -220,6 +220,6 @@
     severity: MonolithContrabandT3
     turnInValues:
       FederationMilitaryCredit: 0
-      Doubloon: 350
+      Doubloon: 595
 
 #endregion
