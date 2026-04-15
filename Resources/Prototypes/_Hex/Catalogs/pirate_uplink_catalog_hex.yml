@@ -16,6 +16,36 @@
       - PirateUplink
 
 - type: listing
+  id: UplinkPiratePulseRifle
+  name: Annie Weapon Case
+  description: A literal beast of a firearm. The "Annie" rifle was made originally by the TSFMC, yet we have once again succesfully stolen their research and started making them in our own researching servers. 
+  productEntity: WeaponCaseAnnie
+  cost:
+    Doubloon: 65
+  categories:
+  - UplinkPirateWeapons
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
+
+- type: listing
+  id: UplinkPirateFrost
+  name: VFD EN-5 FROST
+  description: A self-recharging energy gun with lethal rounds that can inflict serious damage. The recipe of making it was stolen by one of our employees from the TSFMC researching base.
+  productEntity: WeaponEnergyGunFrost
+  cost:
+    Doubloon: 75
+  categories:
+  - UplinkPirateWeapons
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
+
+- type: listing
   id: UplinkPirateDarkGygaxBundle
   name: Dark Gygax Bundle
   description: Contains the set of Cybersun light armored mech - the infamous Dark Gygax.
@@ -30,7 +60,52 @@
       tags:
       - PirateUplink
 
+- type: listing
+  id: UplinkPirateMaulerBundle
+  name: Mauler Bundle
+  description: Contains the set of Cybersun heavy armored mech - the infamous Mauler.
+  productEntity: CrateCybersunMaulerBundle
+  cost:
+    Doubloon: 350
+  categories:
+  - UplinkPirateWeapons
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
+
+- type: listing
+  id: UplinkPirateCorticalBorerEgg
+  name: Cortical Borer Egg
+  description: "Seriously, is growing this thing in our lab secretly from the Colossus Central sector going to profit us?"
+  productEntity: CorticalBorerEgg
+  cost:
+    Doubloon: 10
+  categories:
+  - UplinkPirateWeapons
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
+
 # MEDICINE CATEGORY
+
+- type: listing
+  id: UplinkPirateDragonMeat
+  name: Space Dragon Meat
+  description: A rare delicacy harvested from the elusive space dragons. Known for its unique healing properties.
+  productEntity: FoodMeatDragon
+  cost:
+    Doubloon: 1
+  categories:
+  - UplinkPirateMedical
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
 
 - type: listing
   id: UplinkPirateCombatMedipen
@@ -65,6 +140,21 @@
 # UTILITY CATEGORY
 
 - type: listing
+  id: UplinkPirateBluespaceBackpack
+  name: Bluespace Backpack
+  description: A bluespace technology backpack that we managed to extract from the pre-fracture era containers and succesfully start selling it on our markets.
+  productEntity: ClothingBackpackHolding
+  cost:
+    Doubloon: 50
+  categories:
+  - UplinkPirateUtility
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
+
+- type: listing
   id: UplinkPirateAntiquePowerCell
   name: Antique Prototype Power Cell
   description: An old but surprisingly self-recharcing power cell with decent capacity. Has seen better days but is still a mystery to us.
@@ -85,7 +175,22 @@
   description: A high-value loot crate from a rogue silicon unit, containing premium components and research materials. (WARNING - The Phaeton Dynsaty is not responsible for the fact you may not get the desired items out of the crate. Do not ask us where we get these everytime.)
   productEntity: ClothingBackpackRogueSiliconT4
   cost:
-    Doubloon: 50
+    Doubloon: 15
+  categories:
+  - UplinkPirateUtility
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
+
+- type: listing
+  id: UplinkPirateRogueSiliconT4Lootbox
+  name: Blackbox Crate
+  description: A high-value crate extracted from a rogue space-vessel drone, containing premium components and research materials. Now with more gambling potential!
+  productEntity: ClothingBackpackDroneLootT22
+  cost:
+    Doubloon: 30
   categories:
   - UplinkPirateUtility
   conditions:
