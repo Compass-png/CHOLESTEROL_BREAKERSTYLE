@@ -49,8 +49,8 @@
     prototype: Hydrakin
     requiredLegs: 2
   - type: Temperature
-    coldDamageThreshold: 10000 # Mono - Absurd cold resistance
-    heatDamageThreshold: 10000 # No, fuck off
+    coldDamageThreshold: 10 # Mono - Absurd cold resistance
+    heatDamageThreshold: 452 # No, fuck off
     coldDamage:
       types:
         Cold : 0.01 #per second, scales with temperature & other constants
