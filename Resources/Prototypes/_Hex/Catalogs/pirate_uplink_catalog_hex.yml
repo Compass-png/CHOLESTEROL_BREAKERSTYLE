@@ -16,6 +16,21 @@
       - PirateUplink
 
 - type: listing
+  id: UplinkPirateLMGHammer
+  name: AK-170 "Hammer"
+  description: A creation that made the USSP proud. The "Hammer" rifle was made originally by the USSP, yet we have succesfully stolen their research and started making them in our own researching servers. 
+  productEntity: WeaponLMGHammer
+  cost:
+    Doubloon: 95
+  categories:
+  - UplinkPirateWeapons
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
+
+- type: listing
   id: UplinkPirateAnnieWeaponCase
   name: Annie Weapon Case
   description: A literal beast of a firearm. The "Annie" rifle was made originally by the TSFMC, yet we have once again succesfully stolen their research and started making them in our own researching servers. 
@@ -138,6 +153,21 @@
       - PirateUplink
 
 # UTILITY CATEGORY
+
+- type: listing
+  id: UplinkPirateSyndieIFF
+  name: Syndicate IFF circuit
+  description: A strange circuit that we managed to extract from the pre-corporate war era shuttles and succesfully started selling it on our markets.
+  productEntity: ComputerIFFSyndicateCircuitboard
+  cost:
+    Doubloon: 25
+  categories:
+  - UplinkPirateUtility
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
 
 - type: listing
   id: UplinkPirateBluespaceBackpack
