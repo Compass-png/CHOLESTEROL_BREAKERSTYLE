@@ -1,0 +1,38 @@
+# Author Info
+# GitHub: Compass-png
+# Discord: mr.whoasked
+
+- type: vessel
+  id: Forester
+  parent: BaseVessel
+  name: TSF Forester
+  description: A sleek research and expedition vessel used by the Trans-Solar Federation Military Police. Armed with multiple ship weaponry and designed for tactical research and salvaging. Crewed size is recommended to be not more than 2 or 4.
+  price: 290000
+  category: Medium
+  group: Expedition
+  access: "Bailiff"
+  shuttlePath: /Maps/_Hex/Shuttles/Nfsd/tsf_forester.yml
+  guidebookPage: Null
+  class:
+  - Science
+  - Salvage
+  engine:
+  - AME
+
+- type: gameMap
+  id: Forester
+  mapName: 'TSF Forester'
+  mapPath: /Maps/_Hex/Shuttles/Nfsd/tsf_forester.yml
+  minPlayers: 0
+  stations:
+    Arcalis:
+      stationProto: StandardFrontierExpeditionVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Forester TSF{1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs: 
+            TsfBorg: [ 0, 0 ]
