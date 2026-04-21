@@ -6,7 +6,7 @@
   description: A creation that made the USSP proud. The "Hammer" rifle was made originally by the USSP, we are proud of collaborating with the USSP and selling their weapon on our uplink.
   productEntity: WeaponLMGHammer
   cost:
-    Doubloon: 95
+    FederationMilitaryCredit: 95
   categories:
   - UplinkSecurityWeapons
   conditions:
@@ -25,7 +25,7 @@
   description: A self-recharging energy gun with lethal rounds that can inflict serious damage. A legend within our security forces.
   productEntity: WeaponEnergyGunFrost
   cost:
-    Doubloon: 75
+    FederationMilitaryCredit: 75
   categories:
   - UplinkSecurityWeapons
   conditions:
@@ -44,7 +44,7 @@
   description: Contains the set of Cybersun heavy armored mech - the infamous Mauler. Why would we even need this in the first place? We are not pirates, we are the law! -Said one of our Bailiffs proudly before getting their mouth shut by a higher-up.
   productEntity: CrateCybersunMaulerBundle
   cost:
-    Doubloon: 350
+    FederationMilitaryCredit: 350
   categories:
   - UplinkSecurityWeapons
   conditions:
@@ -63,7 +63,7 @@
   description: Contains the set of Cybersun light armored mech - the infamous Dark Gygax. Why would we even need this in the first place? We are not pirates, we are the law! -Said one of our Bailiffs proudly before getting their mouth shut by a higher-up.
   productEntity: CrateCybersunDarkGygaxBundle
   cost:
-    Doubloon: 250
+    FederationMilitaryCredit: 250
   categories:
   - UplinkSecurityWeapons
   conditions:
@@ -80,7 +80,7 @@
   description: A rare delicacy harvested from the elusive space dragons. Known for its unique healing properties.
   productEntity: FoodMeatDragon
   cost:
-    Doubloon: 1
+    FederationMilitaryCredit: 1
   categories:
   - UplinkSecurityUtility
   conditions:
@@ -100,7 +100,7 @@
   description: A single-use medipen containing chemicals that regenerate most types of damage.
   productEntity: CombatMedipen
   cost:
-    Doubloon: 5
+    FederationMilitaryCredit: 5
   categories:
   - UplinkSecurityUtility
   conditions:
@@ -120,7 +120,7 @@
   description: If you are out of chemicals...
   productEntity: VendingMachineRestockChemVend
   cost:
-    Doubloon: 2
+    FederationMilitaryCredit: 2
   categories:
   - UplinkSecurityUtility
   conditions:
@@ -142,7 +142,7 @@
   description: A strange circuit that we managed to extract from the pre-corporate war era shuttles and succesfully started selling it on our markets. Are we supposed to even have this? Yes. For the sake of law. 
   productEntity: ComputerIFFSyndicateCircuitboard
   cost:
-    Doubloon: 15
+    FederationMilitaryCredit: 15
   categories:
   - UplinkSecurityUtility
   conditions:
@@ -161,7 +161,7 @@
   description: A bluespace technology backpack that we managed to extract from the pre-fracture era containers and succesfully start selling it on our markets.
   productEntity: ClothingBackpackHolding
   cost:
-    Doubloon: 25
+    FederationMilitaryCredit: 25
   categories:
   - UplinkSecurityUtility
   conditions:
@@ -180,7 +180,7 @@
   description: An old but surprisingly self-recharcing power cell with decent capacity. Has seen better days but is still a mystery to us.
   productEntity: PowerCellAntiqueProto
   cost:
-    Doubloon: 15
+    FederationMilitaryCredit: 15
   categories:
   - UplinkSecurityUtility
   conditions:
@@ -199,7 +199,7 @@
   description: A high-value loot crate from a rogue silicon unit, containing premium components and research materials. (WARNING - The Trans-Solar Federation is not responsible for the fact you may not get the desired items out of the crate. Do not ask us where we get these everytime.)
   productEntity: ClothingBackpackRogueSiliconT4
   cost:
-    Doubloon: 15
+    FederationMilitaryCredit: 15
   categories:
   - UplinkSecurityUtility
   conditions:
@@ -218,7 +218,7 @@
   description: A high-value crate extracted from a rogue space-vessel drone, containing premium components and research materials. Now with more gambling potential!
   productEntity: ClothingBackpackDroneLootT22
   cost:
-    Doubloon: 30
+    FederationMilitaryCredit: 30
   categories:
   - UplinkSecurityUtility
   conditions:
@@ -239,7 +239,7 @@
   description: Sleek footwear that increases your movement speed.
   productEntity: ClothingShoesBootsSpeed
   cost:
-    Doubloon: 25
+    FederationMilitaryCredit: 25
   categories:
   - UplinkSecurityUtility
   conditions:
@@ -258,7 +258,7 @@
   description: An elite version of the blood-red hardsuit, with improved mobility and fireproofing. Is now OUR property.
   productEntity: ClothingBackpackDuffelSyndicateEliteHardsuitBundle
   cost:
-    Doubloon: 25
+    FederationMilitaryCredit: 25
   categories:
   - UplinkSecurityUtility
   conditions:
@@ -277,9 +277,30 @@
   description: Enhanced night vision goggles with chameleon camouflage capabilities. Also our property from now on.
   productEntity: ClothingEyesNightVisionGogglesSyndie
   cost:
-    Doubloon: 15
+    FederationMilitaryCredit: 15
   categories:
   - UplinkSecurityUtility
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - SecurityUplink
+  - !type:BuyerJobCondition
+      whitelist:
+        - Bailiff
+        - Sheriff
+
+# AMMO CATEGORY
+
+- type: listing
+  id: UplinkSecurityL6MagazineBox
+  name: L6 Magazines Box
+  description: A box containing 4 magazines for the L6 SAW. A must-have for all the L6 SAW users out there.
+  productEntity: BoxMagazineL6
+  cost:
+    FederationMilitaryCredit: 5
+  categories:
+  - UplinkSecurityAmmo
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
