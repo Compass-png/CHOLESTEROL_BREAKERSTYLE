@@ -1,0 +1,39 @@
+# Author Info
+# GitHub: Compass-png
+# Discord: mr.whoasked
+
+- type: vessel
+  id: Arcalis
+  parent: BaseVessel
+  name: PDV Arcalis
+  description: A sleek research and expedition vessel used by the Phaethon Dynasty Imperial Vanguard. Armed with multiple ship weaponry and designed for tactical research and salvaging. Crewed size is recommended to be not more than 2 or 4.
+  price: 150000
+  category: Medium
+  group: Expedition
+  access: "GrandVizier"
+  shuttlePath: /Maps/_Hex/Shuttles/BlackMarket/arcalis.yml
+  guidebookPage: Null
+  class:
+  - Science
+  - Pirate
+  engine:
+  - AME
+
+- type: gameMap
+  id: Arcalis
+  mapName: 'PDV Arcalis'
+  mapPath: /Maps/_Hex/Shuttles/BlackMarket/arcalis.yml
+  minPlayers: 0
+  stations:
+    Arcalis:
+      stationProto: StandardFrontierExpeditionVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Arcalis PDV{1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs: 
+            Pirate: [ 0, 0 ]
+            PdvBorg: [ 0, 0 ]
