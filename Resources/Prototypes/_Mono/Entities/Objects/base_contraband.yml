@@ -197,7 +197,7 @@
   - type: Contraband
     severity: MonolithContrabandT1
     turnInValues:
-      FederationMilitaryCredit: 0
+      FederationMilitaryCredit: 95
       Doubloon: 95
 
 - type: entity
@@ -208,7 +208,7 @@
   - type: Contraband
     severity: MonolithContrabandT2
     turnInValues:
-      FederationMilitaryCredit: 0
+      FederationMilitaryCredit: 185
       Doubloon: 185
 
 - type: entity
@@ -219,7 +219,7 @@
   - type: Contraband
     severity: MonolithContrabandT3
     turnInValues:
-      FederationMilitaryCredit: 0
+      FederationMilitaryCredit: 595
       Doubloon: 595
 
 #endregion
