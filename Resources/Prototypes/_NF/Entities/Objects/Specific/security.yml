@@ -94,41 +94,40 @@
 - type: entity
   parent: BaseSecurityUplinkRadio
   id: BaseSecurityUplinkRadioSheriff
-  suffix: Colonel 125
+  suffix: Colonel 500
   components:
   - type: Store
     balance:
-      FederationMilitaryCredit: 125
+      FederationMilitaryCredit: 500
 
 - type: entity
   parent: BaseSecurityUplinkRadio
   id: BaseSecurityUplinkRadioCaptain
-  suffix: Captain 100
+  suffix: Captain 450
   components:
   - type: Store
     balance:
-      FederationMilitaryCredit: 100
+      FederationMilitaryCredit: 450
 
 - type: entity
   parent: BaseSecurityUplinkRadio
   id: BaseSecurityUplinkRadioOfficer
-  suffix: Officer 75
+  suffix: Officer 125
   components:
   - type: Store
     balance:
-      FederationMilitaryCredit: 75
+      FederationMilitaryCredit: 125
 
 #Mono
 
 - type: entity
   parent: BaseSecurityUplinkRadio
   id: BaseSecurityUplinkRadioDeputy
-  suffix: Marine 75
+  suffix: Marine 95
   components:
   - type: Store
     balance:
-      FederationMilitaryCredit: 75
-
+      FederationMilitaryCredit: 95
 #Mono End
 
 - type: entity
