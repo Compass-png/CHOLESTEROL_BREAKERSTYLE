@@ -1,10 +1,13 @@
-<p align="center"> <img alt="Frontier Station 14" width="880" height="300" src="https://raw.githubusercontent.com/Monolith-Station/Monolith/89d435f0d2c54c4b0e6c3b1bf4493c9c908a6ac7/Resources/Textures/_Mono/Logo/logo.png?raw=true" /></p>
+<p align="center"> <img alt="Sector: Hex" width="880" height="300" src="https://raw.githubusercontent.com/darvin7531/Sector-Hex/main/Resources/Textures/_Hex/Logo/logo.png?raw=true" /></p>
 
-Monolith is a fork of [Frontier Station 14](https://github.com/new-frontiers-14/frontier-station-14) that runs on the [Robust Toolbox](https://github.com/space-wizards/RobustToolbox) engine written in C#.
+**Сектор: Hex** (Sector: Hex) — это форк билда [Monolith](https://github.com/Monolith-Station/Monolith), который, в свою очередь, является форком [Frontier Station 14](https://github.com/new-frontiers-14/frontier-station-14). Всё это работает на движке [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), написанном на C#.
 
-This is the primary repo for Monolith.
+> [!IMPORTANT]
+> **Основной репозиторий-основа этого билда:** [Monolith-Station/Monolith](https://github.com/Monolith-Station/Monolith)
+>
+> Этот проект регулярно синхронизируется с upstream `Monolith`, сохраняя при этом собственные наработки Sector-Hex (контент в `_Hex`, кастомные баланс/спрайты, локализации и т.д.).
 
-If you want to host or create content for Monolith, this is the repo you need. It contains both RobustToolbox and the content pack for development of new content packs.
+Если вы хотите хостить или создавать контент для Sector-Hex — это нужный вам репозиторий. Он содержит как RobustToolbox, так и контент-пак для разработки новых материалов.
 
 ## Links
 
@@ -12,9 +15,9 @@ If you want to host or create content for Monolith, this is the repo you need. I
 
 ## Contributing
 
-We are happy to accept contributions from anybody. Get in Discord if you want to help. Don't be afraid to ask for help either!
+Мы рады принимать контрибьюшены от кого угодно. Не бойтесь просить помощи, если что-то непонятно!
 
-We are not currently accepting translations of the game on our main repository. If you would like to translate the game into another language consider creating a fork or contributing to a fork.
+В отличие от upstream Monolith, этот билд **активно поддерживает локализации** (в первую очередь ru-RU) — они хранятся в `Resources/Locale/ru-RU/`. Пулл-реквесты с переводами и улучшениями локали приветствуются.
 
 ## Building
 
