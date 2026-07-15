@@ -10,7 +10,7 @@ set "WIN_RUNTIME=win-x64"
 set "RELEASE_DIR=%ROOT%release"
 set "PACKAGE_ZIP=%RELEASE_DIR%\SS14.Server_%WIN_RUNTIME%.zip"
 set "HYBRID_LOG=%TEMP%\SectorHex_hybrid_build.log"
-set "PACKAGING_BUILD_DIR=%ROOT%Content.Packaging\bin\Release\net9.0"
+set "PACKAGING_BUILD_DIR=%ROOT%Content.Packaging\bin\Release\net10.0"
 set "PACKAGING_STAGE_DIR=%TEMP%\SectorHexPackagingTool"
 
 if /I "%~1"=="local" goto local
