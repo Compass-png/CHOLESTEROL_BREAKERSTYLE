@@ -30,7 +30,7 @@
   - type: Contraband
     severity: FactionGear1
     turnInValues:
-      FederationMilitaryCredit: 5
+      FederationMilitaryCredit: 5 # Hex
 
 - type: entity
   parent: BaseFactionGearPDVT0
@@ -40,7 +40,7 @@
   - type: Contraband
     severity: FactionGear2
     turnInValues:
-      FederationMilitaryCredit: 15
+      FederationMilitaryCredit: 15 # Hex
 
 - type: entity
   parent: BaseFactionGearPDVT0
@@ -72,7 +72,7 @@
   - type: Contraband
     severity: FactionGear1
     turnInValues:
-      Doubloon: 5
+      Doubloon: 5 # Hex
 
 - type: entity
   parent: BaseFactionGearTSFT0
@@ -82,7 +82,7 @@
   - type: Contraband
     severity: FactionGear2
     turnInValues:
-      Doubloon: 15
+      Doubloon: 15 # Hex
 
 - type: entity
   parent: BaseFactionGearTSFT0
@@ -197,8 +197,8 @@
   - type: Contraband
     severity: MonolithContrabandT1
     turnInValues:
-      FederationMilitaryCredit: 95
-      Doubloon: 95
+      FederationMilitaryCredit: 95 # Hex
+      Doubloon: 95 # Hex
 
 - type: entity
   parent: BaseFactionGearOtherFactionT0
@@ -208,8 +208,8 @@
   - type: Contraband
     severity: MonolithContrabandT2
     turnInValues:
-      FederationMilitaryCredit: 185
-      Doubloon: 185
+      FederationMilitaryCredit: 185 # Hex
+      Doubloon: 185 # Hex
 
 - type: entity
   parent: BaseFactionGearOtherFactionT0
@@ -219,7 +219,7 @@
   - type: Contraband
     severity: MonolithContrabandT3
     turnInValues:
-      FederationMilitaryCredit: 595
-      Doubloon: 595
+      FederationMilitaryCredit: 595 # Hex
+      Doubloon: 595 # Hex
 
 #endregion
