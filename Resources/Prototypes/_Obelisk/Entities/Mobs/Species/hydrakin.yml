@@ -20,9 +20,8 @@
   - type: Icon
     sprite: _Obelisk/Mobs/Species/Hydrakin/parts.rsi
     state: full
-  - type: FlashImmunity
-  - type: ThermalVision
-    flashDurationMultiplier: 2
+  - type: FlashImmunity # Hex
+  - type: ThermalVision # Hex
   - type: BodyEmotes
     soundsId: ReptilianBodyEmotes
   - type: Hunger
@@ -44,13 +43,13 @@
     animation: WeaponArcClaw
     damage:
       types:
-        Slash: 25
+        Slash: 25 # Hex
   - type: Body
     prototype: Hydrakin
     requiredLegs: 2
   - type: Temperature
     coldDamageThreshold: 10 # Mono - Absurd cold resistance
-    heatDamageThreshold: 452 # No, fuck off
+    heatDamageThreshold: 452 # Hex
     coldDamage:
       types:
         Cold : 0.01 #per second, scales with temperature & other constants
