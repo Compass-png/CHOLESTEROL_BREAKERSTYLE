@@ -3,7 +3,7 @@
   name: small monolithic crystal
   parent: [BaseItem, BaseMonolithContrabandT1]
   id: MonolithicCrystalSmall
-  suffix: 50 Data
+  suffix: 15 FMC/Data
   description: A mysterious crystalline solid. Seems highly energetic, but fragile. Local factions and researchers are very interested in this.
   components:
   - type: Sprite
@@ -44,7 +44,7 @@
   name: medium monolithic crystal
   parent: [BaseItem, BaseMonolithContrabandT2]
   id: MonolithicCrystalMedium
-  suffix: 150 Data
+  suffix: 25 FMC/Data
   description: A mysterious crystalline solid. Seems highly energetic, but fragile. Notably large. Local factions and researchers are very interested in this.
   components:
   - type: Sprite
@@ -87,7 +87,7 @@
   name: large monolithic crystal
   parent: [BaseItem, BaseMonolithContrabandT3]
   id: MonolithicCrystalLarge
-  suffix: 350 Data
+  suffix: 50 FMC/Data
   description: A mysterious crystalline solid. Seems highly energetic, but fragile. It is of rare size! Local factions and researchers are very interested in this.
   components:
   - type: Sprite

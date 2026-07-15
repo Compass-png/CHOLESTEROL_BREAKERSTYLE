@@ -42,7 +42,7 @@
       map: [ "light" ]
   - type: HandheldLight
     addPrefix: false
-  - type: ToggleableLightVisuals
+  - type: ToggleableVisuals
     spriteLayer: light
     clothingVisuals:
       head:
@@ -108,7 +108,7 @@
       map: [ "light" ]
   - type: HandheldLight
     addPrefix: false
-  - type: ToggleableLightVisuals
+  - type: ToggleableVisuals
     clothingVisuals:
       head:
       - state: equipped-head-light
@@ -172,7 +172,7 @@
       map: [ "light" ]
   - type: HandheldLight
     addPrefix: false
-  - type: ToggleableLightVisuals
+  - type: ToggleableVisuals
     clothingVisuals:
       head:
       - state: equipped-head-light
@@ -778,7 +778,6 @@
         Radiation: 0.80
         Caustic: 0.95
   - type: FlashImmunity # Goobstation
-    protectionRange: 0
   # WD EDIT START
   - type: ThermalVision
     isEquipment: true
@@ -830,84 +829,3 @@
     color: "#f4ffad"
     radius: 5
     energy: 2
-
-# hex
-- type: entity
-  parent: ClothingHeadHardsuitBase
-  id: ClothingHeadHelmetHardsuitUGESpecialistAssault
-  name: helmet of the assault hardsuit prototype
-  description: A heavily armored helmet of a prototype UGE spacesuit, allowing the user to see in the dark thanks to a built-in night vision device. This one is a specialist version.
-  components:
-  - type: Sprite
-    sprite: Clothing/Head/Hardsuits/uge_specialist_helm.rsi
-  - type: Clothing
-    sprite: Clothing/Head/Hardsuits/uge_specialist_helm.rsi
-  - type: PressureProtection
-    highPressureMultiplier: 0.60
-    lowPressureMultiplier: 1000
-  - type: NightVision
-    flashDurationMultiplier: 2
-    isEquipment: true
-  - type: ExplosionResistance
-    damageCoefficient: 0.1
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.8
-        Slash: 0.8
-        Piercing: 0.8
-        Heat: 0.9
-
-# hex
-- type: entity
-  parent: ClothingHeadHardsuitBase
-  id: ClothingHeadHelmetHardsuitUGEMedicAssault
-  name: helmet of the assault hardsuit prototype
-  description: A heavily armored helmet of a prototype UGE spacesuit, allowing the user to see in the dark thanks to a built-in night vision device. This one is a medic version.
-  components:
-  - type: Sprite
-    sprite: Clothing/Head/Hardsuits/uge_medic_helm.rsi
-  - type: Clothing
-    sprite: Clothing/Head/Hardsuits/uge_medic_helm.rsi
-  - type: PressureProtection
-    highPressureMultiplier: 0.60
-    lowPressureMultiplier: 1000
-  - type: NightVision
-    flashDurationMultiplier: 2
-    isEquipment: true
-  - type: ExplosionResistance
-    damageCoefficient: 0.1
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.8
-        Slash: 0.8
-        Piercing: 0.8
-        Heat: 0.9
-
-# hex
-- type: entity
-  parent: ClothingHeadHardsuitBase
-  id: ClothingHeadHelmetHardsuitUGECommanderAssault
-  name: helmet of the assault hardsuit prototype
-  description: A heavily armored helmet of a prototype UGE spacesuit, allowing the user to see in the dark thanks to a built-in night vision device. This one is a commander version.
-  components:
-  - type: Sprite
-    sprite: _Hex/Clothing/Head/Hardsuits/uge_commander_helm.rsi
-  - type: Clothing
-    sprite: _Hex/Clothing/Head/Hardsuits/uge_commander_helm.rsi
-  - type: PressureProtection
-    highPressureMultiplier: 0.60
-    lowPressureMultiplier: 1000
-  - type: NightVision
-    flashDurationMultiplier: 2
-    isEquipment: true
-  - type: ExplosionResistance
-    damageCoefficient: 0.1
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.8
-        Slash: 0.8
-        Piercing: 0.8
-        Heat: 0.9
