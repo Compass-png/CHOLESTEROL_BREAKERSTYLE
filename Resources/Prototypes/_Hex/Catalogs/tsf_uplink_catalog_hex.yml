@@ -33,7 +33,7 @@
     whitelist:
       tags:
       - SecurityUplink
-      - !type:BuyerJobCondition
+  - !type:BuyerJobCondition
       whitelist:
         - Bailiff
         - Sheriff
@@ -139,7 +139,7 @@
 - type: listing
   id: UplinkSecuritySyndieIFF
   name: Syndicate IFF circuit
-  description: A strange circuit that we managed to extract from the pre-corporate war era shuttles and succesfully started selling it on our markets. Are we supposed to even have this? Yes. For the sake of law. 
+  description: A strange circuit that we managed to extract from the pre-corporate war era shuttles and succesfully started selling it on our markets. Are we supposed to even have this? Yes. For the sake of law.
   productEntity: ComputerIFFSyndicateCircuitboard
   cost:
     FederationMilitaryCredit: 15
