@@ -98,7 +98,11 @@
   components:
   - type: Store
     balance:
-      FederationMilitaryCredit: 500
+        FederationMilitaryCredit: 500
+  - type: Tag
+    tags:
+      - SecurityUplink
+      - FactionStaticUplinkTsf
 
 - type: entity
   parent: BaseSecurityUplinkRadio

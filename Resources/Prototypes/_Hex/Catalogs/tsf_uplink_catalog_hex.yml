@@ -15,7 +15,7 @@
       tags:
       - SecurityUplink
   - !type:BuyerJobCondition
-      whitelist:
+    whitelist:
         - Bailiff
         - Sheriff
 
