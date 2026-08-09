@@ -59,21 +59,6 @@
       - SecurityUplink
 
 - type: listing
-  id: UplinkSecurityAshstorm
-  name:  uplink-security-ashstorm-name
-  description: uplink-security-ashstorm-desc
-  productEntity: ClothingBackpackDuffelAshstormBundle
-  cost:
-    FederationMilitaryCredit: 250
-  categories:
-    - UplinkSecurityWeapons
-  conditions:
-    - !type:StoreWhitelistCondition
-      whitelist:
-        tags:
-          - SecurityUplink
-
-- type: listing
   id: UplinkSecuritySurgeryDuffel
   name:  uplink-security-surgery-duffel-name
   description: uplink-security-surgery-duffel-desc
@@ -231,47 +216,6 @@
       whitelist:
         tags:
           - SecurityUplink
-
-- type: listing
-  id: UplinkSecurityMediumVoucher
-  name:  uplink-security-medium-voucher-name
-  description: uplink-security-medium-voucher-desc
-  productEntity: ShipVoucherNfsdSergeant
-  cost:
-    FederationMilitaryCredit: 25
-  categories:
-  - UplinkSecurityVouchers
-  conditions:
-    - !type:StoreWhitelistCondition
-      whitelist:
-        tags:
-          - SecurityUplink
-    - !type:BuyerJobCondition
-      whitelist:
-        - Bailiff
-        - SeniorOfficer
-        - Sheriff
-
-- type: listing
-  id: UplinkSecurityCapitalVoucher
-  name:  uplink-security-capital-voucher-name
-  description: uplink-security-capital-voucher-desc
-  productEntity: ShipVoucherNfsdBailiff
-  cost:
-    FederationMilitaryCredit: 125
-  categories:
-  - UplinkSecurityVouchers
-  conditions:
-    - !type:StoreWhitelistCondition
-      whitelist:
-        tags:
-          - SecurityUplink
-    - !type:BuyerJobCondition
-      whitelist:
-        - Bailiff
-        - Sheriff
-
-# Misc
 
 - type: listing
   id: UplinkSecurityFlyssaVoucher
